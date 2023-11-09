@@ -2,16 +2,14 @@
 *
 {padding: 0;
 margin: 0;
-
+box-sizing: border-box;
 }
+
 body
 {
-
 background-image: url(tt.jpg);
 background-size: cover;
 background-position: center;
-box-sizing: border-box;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -19,8 +17,29 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 {
 
 background-color: rgb(36, 76, 151);
+text-align: center;
+}
+.menu-bar ul
+{
 
+display: inline-flex;
+list-style: none;
+color:aqua;
+}
+.menu-bar ul li
+{
+width: 120px; 
+margin: 15%;
+padding: 15%;
+ }
+.menu-bar ul li a 
+{
+text-decoration: none;
+color: aqua;
+}
 
+.active, .menu-bar ul li:hover
+{
 
 
 }
