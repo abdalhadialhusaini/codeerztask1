@@ -1,45 +1,129 @@
 
 *
-{padding: 0;
+{
+    padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
 
 body
 {
+    
 background-image: url(tt.jpg);
-background-size: cover;
-background-position: center;
-
+background-size:cover;
+background-position:center;
+font-family: sans-serif;
 }
-
-.menu-bar
+ .menu-bar
 {
 
-background-color: rgb(36, 76, 151);
-text-align: center;
+ background: rgb(0 , 100, 0);
+height: 100px;
+margin: 1px;
+padding: 15px;
+
 }
 .menu-bar ul
 {
 
 display: inline-flex;
 list-style: none;
-color:aqua;
+color:rgb(251, 253, 253);
+height: 100px;
+    
+
+
 }
 .menu-bar ul li
 {
-width: 120px; 
-margin: 15%;
-padding: 15%;
+
+margin: 15px;
+padding: 15px;
+  
+
+
  }
 .menu-bar ul li a 
 {
+
 text-decoration: none;
-color: aqua;
+color: #ffff;
+height: 250px;
+
 }
 
 .active, .menu-bar ul li:hover
 {
+    background: #2bab9d;
+    border-radius: 3px;
+ 
+}
+.menu-bar .fa
+{
+
+margin-right: 8px;
 
 
 }
+
+.sub-menu-1
+{
+
+    display: none;
+
+
+}
+.active, .menu-bar ul li:hover .sub-menu-1
+{
+
+display: block;
+position:absolute;
+margin-top: 15px;
+background: rgb(0 , 100, 0);
+
+
+}
+
+
+.sub-menu-2
+{
+
+    display: none;
+
+}
+
+.active, .menu-bar ul li:hover .sub-menu-2
+{
+
+display: block;
+position:absolute;
+margin-top: 15px;
+background: rgb(0 , 100, 0);
+height: 250px;
+
+}
+
+.sub-menu-ul
+{
+
+    display: flex;
+flex-direction: column;
+height: 250px;
+
+
+
+}
+
+
+.hf
+{
+border:80px black;
+width: 190px;
+height: 50px;
+padding: 50px;
+float: right;
+display: block;
+ 
+
+
+} 
